@@ -50,19 +50,22 @@ module program =
         on your machine.
         *)
 
-
-
+        canopy.configuration.chromeDir <- "/usr/local/Cellar/chromedriver/2.9/bin"
+        start chrome
         (*
         Task 2: open the game url.
         *)
 
-
-
+        url "http://gabrielecirulli.github.io/2048"
+        
         (*
         Task 3: play up, left, down, right.
         *)
-
-
+        press up
+        press left 
+        press down
+        press right
+       
 
         (*
         Task 4: retrieve the score.
