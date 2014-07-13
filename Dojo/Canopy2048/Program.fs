@@ -36,6 +36,7 @@ open runner
 open System
 open Game
 open Interactions
+open Bots
 
 module program = 
 
@@ -61,12 +62,14 @@ module program =
         (*
         Task 3: play up, left, down, right.
         *)
+    
         press up
-        press left 
+        press left
         press down
         press right
-       
+        let score = (element ".score-container").Text
 
+        let x = 1
         (*
         Task 4: retrieve the score.
         Check the page and look for the 

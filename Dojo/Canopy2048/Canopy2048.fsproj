@@ -63,6 +63,7 @@
     <Compile Include="Core.fs" />
     <Compile Include="Game.fs" />
     <Compile Include="Interactions.fs" />
+    <Compile Include="Bots.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <None Include="packages.config" />
