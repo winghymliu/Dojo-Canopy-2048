@@ -9,11 +9,16 @@ module module1 =
 
     [<TestFixture>]
     type ``Greedy bot Tests`` ()=        
-        let posA = { Row = 1; Col = 1 } 
-        let posB = { Row = 2; Col = 1 }
-     
-        let state1 = Map<Pos,int>[posA,1; posB,1]
+        let state1 = Map<Pos,int>[{ Row = 1; Col = 1 } ,1; { Row = 2; Col = 1 } ,1]
+        let state2 = Map<Pos,int>[{ Row = 1; Col = 1 } ,1; { Row = 1; Col = 2 } ,1]
+
         [<Test>] member test.
-            ``should go up to collapse two ones in state1``()=  
+            ``should go up or down to collapse two ones in state1``()=  
               let nextMove = getNextMove (state1) in               
-                nextMove |> should equal Up
+                (nextMove = Up || nextMove = Down) |> should equal true
+
+        
+        [<Test>] member test.
+            ``should go left or right to collapse two ones in state2``()=  
+              let nextMove = getNextMove (state1) in               
+                (nextMove = Left || nextMove = Right) |> should equal true
