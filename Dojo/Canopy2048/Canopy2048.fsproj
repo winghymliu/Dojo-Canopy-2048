@@ -58,12 +58,20 @@
       <HintPath>packages\Selenium.Support.2.41.0\lib\net40\WebDriver.Support.dll</HintPath>
     </Reference>
     <Reference Include="FSharp.Core" />
+    <Reference Include="nunit.framework">
+      <HintPath>packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="FsUnit.NUnit">
+      <HintPath>packages\FsUnit.1.3.0.1\Lib\Net40\FsUnit.NUnit.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core.fs" />
     <Compile Include="Game.fs" />
     <Compile Include="Interactions.fs" />
     <Compile Include="Bots.fs" />
+    <Compile Include="GreedyBot.fs" />
+    <Compile Include="GreedyBotTest.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <None Include="packages.config" />

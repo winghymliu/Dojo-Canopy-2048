@@ -64,7 +64,9 @@ module program =
         *)
     
         press up
+        let state1 = state();
         press left
+        let state2 = state();
         press down
         press right
         let score = (element ".score-container").Text

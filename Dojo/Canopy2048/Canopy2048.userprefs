@@ -1,19 +1,33 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.fs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GreedyBotTest.fs">
     <Files>
-      <File FileName="Program.fs" Line="76" Column="9" />
-      <File FileName="Core.fs" Line="1" Column="1" />
-      <File FileName="Game.fs" Line="1" Column="1" />
-      <File FileName="packages.config" Line="1" Column="1" />
-      <File FileName="App.config" Line="1" Column="1" />
+      <File FileName="GreedyBot.fs" Line="1" Column="1" />
       <File FileName="Interactions.fs" Line="1" Column="1" />
+      <File FileName="Game.fs" Line="1" Column="1" />
+      <File FileName="Bots.fs" Line="3" Column="12" />
+      <File FileName="Program.fs" Line="66" Column="17" />
+      <File FileName="GreedyBotTest.fs" Line="13" Column="26" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="Canopy2048" expanded="True">
+            <Node name="Canopy2048" expanded="True">
+              <Node name="module1+Greedy bot Tests" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/Presenter/Workspace/FSharp/Dojo-Canopy-2048/Dojo/Canopy2048/Program.fs" line="64" column="1" />
+      <Breakpoint file="/Users/Presenter/Workspace/FSharp/Dojo-Canopy-2048/Dojo/Canopy2048/GreedyBotTest.fs" line="27" column="1" />
+      <Breakpoint file="/Users/Presenter/Workspace/FSharp/Dojo-Canopy-2048/Dojo/Canopy2048/Program.fs" line="68" column="19" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Program.fs" line="68" offsetX="276" offsetY="1005" expression="curState" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>
