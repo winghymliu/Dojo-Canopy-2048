@@ -51,7 +51,7 @@ module program =
         on your machine.
         *)
 
-        canopy.configuration.chromeDir <- "/usr/local/Cellar/chromedriver/2.9/bin"
+        canopy.configuration.chromeDir <- "C:\Workspace\Dojo-Canopy-2048\Dojo\Canopy2048\lib"
         start chrome
         (*
         Task 2: open the game url.
@@ -63,15 +63,16 @@ module program =
         Task 3: play up, left, down, right.
         *)
     
-        press up
-        let state1 = state();
-        press left
-        let state2 = state();
-        press down
-        press right
+//        press up
+//        let state1 = state();
+//        press left
+//        let state2 = state();
+//        press down
+//        press right
+        
         let score = (element ".score-container").Text
 
-        let x = 1
+//        let x = 1
         (*
         Task 4: retrieve the score.
         Check the page and look for the 
@@ -88,7 +89,7 @@ module program =
         a good way to go!
         *)
 
-
+        Bots.runRandomBot
 
         (*
         Task 6: terminate!
