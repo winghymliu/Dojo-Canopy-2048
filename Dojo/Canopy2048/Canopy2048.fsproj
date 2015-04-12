@@ -70,8 +70,6 @@
     <Compile Include="Game.fs" />
     <Compile Include="Interactions.fs" />
     <Compile Include="Bots.fs" />
-    <Compile Include="GreedyBot.fs" />
-    <Compile Include="GreedyBotTest.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <None Include="packages.config" />

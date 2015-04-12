@@ -89,7 +89,7 @@ module program =
         a good way to go!
         *)
 
-        Bots.runRandomBot
+        Bots.runGreedyBot
 
         (*
         Task 6: terminate!
